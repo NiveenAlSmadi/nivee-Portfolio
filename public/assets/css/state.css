@@ -1,0 +1,27 @@
+
+a:hover {
+    color: #E27689;
+    border-bottom-color: rgba(255, 255, 255, 0);
+}
+
+
+.icon:before {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 1.25em;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (min-width: 961px) and (max-width: 1320px) {
+    
+    #nav ul li a span:before {
+        left: 100%;
+        margin-left: -1.25em;
+        line-height: 2.25em;
+    }
+}

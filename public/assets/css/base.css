@@ -1,0 +1,89 @@
+
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+
+/* Basic */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19pt;
+    font-weight: 300;
+    line-height: 1.75em;
+    color: #888;
+}
+
+    body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+        -moz-animation: none !important;
+        -webkit-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+        -moz-transition: none !important;
+        -webkit-transition: none !important;
+        -ms-transition: none !important;
+        transition: none !important;
+    }
+
+/* Wide */
+
+@media screen and (min-width: 961px) and (max-width: 1880px) {
+
+    /* Basic */
+
+        body, input, textarea, select {
+            font-size: 17pt;
+        }
+
+}
+
+/* Mobile */
+
+@media screen and (max-width: 736px) {
+
+    /* Basic */
+
+        body, input, textarea, select {
+            font-size: 14pt;
+        }
+
+}
+
+/* Narrower */
+
+@media screen and (max-width: 960px) {
+
+    /* Basic */
+
+        html, body {
+            overflow-x: hidden;
+        }
+
+        body, input, textarea, select {
+            font-size: 16pt;
+        }
+
+        header br {
+            display: none;
+        }
+
+}
+
+/* Narrow */
+
+@media screen and (min-width: 961px) and (max-width: 1320px) {
+
+    /* Basic */
+
+        body, input, textarea, select {
+            font-size: 16pt;
+        }
+
+}
