@@ -68,7 +68,6 @@ p, ul, ol, dl, table {
     margin-bottom: 2em;
 }
 
-/* Container */
 
 .container {
     margin: 0 auto;
@@ -116,7 +115,7 @@ p, ul, ol, dl, table {
 
     }
 
-/* Row */
+
 
 .row {
     display: flex;
@@ -1583,7 +1582,6 @@ p, ul, ol, dl, table {
     }
 
 
-/* Sections/Article */
 
 section, article {
     margin-bottom: 3em;
@@ -1592,7 +1590,7 @@ section, article {
     margin-bottom: 0;
 }
 
-/* Image */
+
 
 .image {
     display: inline-block;
@@ -1641,7 +1639,7 @@ section, article {
             width: auto;
         }
 
-/* List */
+
 
 ul {
     list-style: disc;
@@ -1661,7 +1659,7 @@ ol {
         padding-left: 0.25em;
     }
 
-/* Form */
+
 
 	form label {
 		display: block;
@@ -1732,7 +1730,7 @@ ol {
 		border: 0;
 	}
 
-/* Table */
+
 
 table {
     width: 100%;
@@ -1762,7 +1760,7 @@ table {
     table tfoot {
         background: #eee;
     }
-/* Button */
+
 
 input[type="button"],
 input[type="submit"],
@@ -1804,7 +1802,6 @@ button,
         background-color: #7eaeac;
     }
 
-/* Item */
 
 .item {
     box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
@@ -1819,7 +1816,7 @@ button,
     }
 
 
-/* Icons */
+
 
 .icon {
     text-decoration: none;
@@ -1829,11 +1826,10 @@ button,
         display: none;
     }
 
-/* Narrower */
 
 @media screen and (max-width: 960px) {
 
-    /* Icons */
+    
 
         ul.icons a {
             width: 1.75em;
@@ -1842,11 +1838,11 @@ button,
 
 }
 
-/* Mobile */
+
 
 @media screen and (max-width: 736px) {
 
-    /* Basic */
+    
 
         h2 {
             font-size: 1.5em;
@@ -1854,7 +1850,7 @@ button,
             font-weight: 300;
         }
 
-    /* List */
+   
 
         ul.icons a {
             width: 2em;

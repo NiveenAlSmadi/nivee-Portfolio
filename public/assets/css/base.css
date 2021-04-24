@@ -2,8 +2,6 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
-/* Basic */
-
 html {
     box-sizing: border-box;
 }
@@ -32,11 +30,10 @@ body {
         transition: none !important;
     }
 
-/* Wide */
 
 @media screen and (min-width: 961px) and (max-width: 1880px) {
 
-    /* Basic */
+   
 
         body, input, textarea, select {
             font-size: 17pt;
@@ -44,11 +41,10 @@ body {
 
 }
 
-/* Mobile */
 
 @media screen and (max-width: 736px) {
 
-    /* Basic */
+    
 
         body, input, textarea, select {
             font-size: 14pt;
@@ -56,11 +52,11 @@ body {
 
 }
 
-/* Narrower */
+
 
 @media screen and (max-width: 960px) {
 
-    /* Basic */
+    
 
         html, body {
             overflow-x: hidden;
@@ -76,11 +72,11 @@ body {
 
 }
 
-/* Narrow */
+
 
 @media screen and (min-width: 961px) and (max-width: 1320px) {
 
-    /* Basic */
+    
 
         body, input, textarea, select {
             font-size: 16pt;
